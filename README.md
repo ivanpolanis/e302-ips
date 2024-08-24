@@ -9,7 +9,7 @@ python -m venv env
 ```
 **Modify the activation script**
 
-Before activating the virtual environment, add the following line at the end of the env/bin/activate file:
+Before activating the virtual environment, add the following line at the end of the \`*env/bin/activate*\` file:
 
 ```sh
 export PYTHONPATH=$(pwd):$PYTHONPATH
@@ -24,7 +24,7 @@ source env/bin/activate
 
 **Install required dependencies:**
 
-Once the virtual environment is activated, install the dependencies listed in requirements.txt:
+Once the virtual environment is activated, install the dependencies listed in \`*requirements.txt*\`:
 
 ```sh
 pip install -r requirements.txt
